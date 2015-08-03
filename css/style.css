@@ -1,3 +1,5 @@
+/*---------------------------- Fonts --------------------*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700,700italic,900,900italic);
 /*---------------------------- Body --------------------*/
 .cover-pattern{
  height: 650px;
@@ -5,8 +7,8 @@
 /*--------------------------- Navbar -------------------*/
 .mylinks {
 color: inherit; !important;
-font-family: 'Helvetica';
-font-weight: 100;
+font-family: 'Lato';
+font-weight: 300;
 }
 
 .mylinks:hover {
@@ -14,16 +16,15 @@ color: #D0D0CF; !important;
 }
 /*--------------------------- Footer --------------------*/
 .navbar-text > a {
-    color: inherit;
-    padding-right: 8px;
+  color: inherit;
+  padding-right: 8px;
 }
 .navbar-text > a:hover {
     color: #ECE25F;
 }
 /*--------------------------- Home Page ---------------------*/
 .push-down {
-margin-top: 80px;
-  height: 280px;
+ margin-top: 80px;
 }
 .skill-container{
   height: 200px;
@@ -31,7 +32,6 @@ margin-top: 80px;
 .thumbnail-1{
 width: 460px;
 height: 280px;
-/*margin-right: 5px;*/
 padding: 0;
 }
 .thumbnail-2{
@@ -47,16 +47,183 @@ width: 460px;
 /*margin-left: 5px;*/
 padding: 0;
 }
-.img-circle{
+.david-img{
   width: 250px;
   height: 250px;
   margin-top: 25px;
 }
+.skills-3{
+  width: 193px;
+  height: 200px;
+  margin: 0 2px 0 0;
+  padding: 0;
+}
+.skills-4{
+  width: 193px;
+  height: 200px;
+  margin: 0 1px 0 1px;
+  padding: 0;
+}
+.skills-5{
+  width: 193px;
+  height: 200px;
+  margin: 0 0 0 2px;
+  padding: 0;
+}
+.skills-6{
+  width: 285px;
+  height: 200px;
+  margin: 0 0 0 7px;
+  padding: 0;
+}
+/*--------------------------- About Page ----------------------*/
+.push-down-2{
+  width: 950px;
+  margin: 80px auto 0 auto;
+  float: none;
+  padding: 0;
+}
+.push-down-3{
+  width: 950px;
+  margin: 60px auto 0 auto;
+  float: none;
+  padding: 0;
+}
+.presentation-1{
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+.presentation-2{
+  width: 747.5px;
+  height: 200px;
+  margin-left: 2.5px;
+}
+.sub-presentation{
+  margin-top: 75px;
+  padding: 0 15px 0 35px;
+}
+.sub-presentation-2{
+  margin-top: 0;
+  padding: 0 15px 0 35px;
+}
+.name {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 50px;
+  color: #7E7E7E;
+  letter-spacing: 1px;
+}
+.graphic-designer{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 20px;
+  color: #7E7E7E;
+  padding-left: 5px;
+}
+.about-line{
+  margin-top: 20px;
+}
+.about{
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 25px;
+  color: #7E7E7E;
+}
+.thumbnail-about{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 316.6;
+  padding: 2.5px 5px;
+}
+.in-about{
+  text-align: justify;
+  font-family: Helvetica Neue;
+  font-weight: 200;
+  color: #636464;
+  border-bottom: 1.5px solid #A09F9F;
+  border-top: 1.5px solid #A09F9F;
+}
+/*--------------------------- Timeline Page -------------------*/
+.timeline-title{
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 50px;
+  color: #7E7E7E;
+  letter-spacing: 1px;
+}
+.text-align{
+  text-align: center;
+  padding: 0;
+}
+.education{
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 20px;
+  color: #7E7E7E;
+}
+.education-box {
+  width: 650px;
+  margin: 0 auto;
+}
+.education-box-2 {
+  width: 400px;
+  margin: 10px auto 0 auto;
+}
+.education-thumbnail{
+  width: 150px;
+  height: 200px;
+  padding: 0;
+}
+.margin-bottom{
+  margin-bottom: 10px;
+}
+.margin-top{
+  margin-top: 10px;
+}
+.margin-1{
+  margin-left: 10px;
+}
+.margin-2{
+  margin-right: 100px;
+}
+.padding-0{
+  padding: 0px;
+}
+.year{
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 50px;
+  color: #7B006C;
+  letter-spacing: -1.5px;
+}
+.year-2{
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 50px;
+  color: #636464;
+  letter-spacing: -1.5px;
+}
+.education-ul{
+  list-style-type: none;
+  padding: 0;
+}
+.header-li{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  color: #636464;
+}
+.text-li{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 15px;
+  color: #636464;
+}
 /*--------------------------- Line Skills ---------------------*/
 .skills-1{
-margin: 10px 0;
-height: 30px;
-padding: 0;
+ margin: 10px 0;
+ height: 30px;
+ padding: 0;
 }
 .skills-2{
   margin-top: 10px;
@@ -72,28 +239,40 @@ padding: 0;
   font-family: 'Helvetica';
   position: relative;
 }
-/*--------------------------- thumbnail Skills ---------------------*/
-.skills-3{
-  width: 193px;
-  height: 200px;
-  margin: 0 2px 0 0;
-  padding: 0;
+/*--------------------------- Contact ---------------------*/
+.header {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: center;
 }
-.skills-4{
-  width: 193px;
-  height: 200px;
-  margin: 0 1px 0 1px;
-  padding: 0;
+.bigicon {
+    font-size: 35px;
+    color: black;
 }
-.skills-5{
-    width: 193px;
-    height: 200px;
-    margin: 0 0 0 2px;
-    padding: 0;
+.contact-cover {
+  opacity: 0.8;
+  margin: 90px auto 0 auto; !important;
+  float: inherit;
 }
-.skills-6{
-  width: 285px;
-  height: 200px;
-  margin: 0 0 0 7px;
-  padding: 0;
+.form-control{
+  background-color: #D0D0CF;
+  color: black;
+  font-family: 'Lato';
+  font-weight: 400;
+  border-color: #7E7E7E;
+}
+legend {
+  border-bottom: 1px solid #ECE25F;
+}
+.button-1{
+ text-align: right;
+}
+.btn{
+  font-family: 'Lato';
+  font-weight: 400;
+  color: black;
+  margin-right: 80px;
 }
